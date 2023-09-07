@@ -3,6 +3,8 @@
 
 ## 영어 단어장 기능 설명
 - 단어 추가 기능
-- 
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/add.png?raw=true" width="60%" 
 - 단어 목록 조회 기능
-- 
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/list.png?raw=true" width="60%"
