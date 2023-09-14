@@ -30,6 +30,10 @@ src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screens
   
 <img
 src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/save.png?raw=true">
+위의 사진처럼 저장하면 수정하고 삭제한 결과가 아래처럼 저장된 모습을 볼 수 있다.
+
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/save 2.png?raw=true">
 - 데이터 파일 읽기 기능
   
 <img
