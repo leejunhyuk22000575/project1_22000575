@@ -10,3 +10,28 @@ src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screens
   
 <img
 src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/list.png?raw=true">
+- 단어 수정 기능
+  
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/update.png?raw=true">
+- 단어 삭제 기능
+  
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/delete.png?raw=true">
+- 단어 검색 기능
+  
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/search.png?raw=true">
+- 단어 수준별 보기 기능
+  
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/levellist.png?raw=true">
+- 단어 저장 기능
+  
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/save.png?raw=true">
+- 데이터 파일 읽기 기능
+  
+<img
+src="https://github.com/leejunhyuk22000575/project1_22000575/blob/master/screenshot/load.png?raw=true">
+
