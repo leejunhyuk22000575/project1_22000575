@@ -1,6 +1,7 @@
 package com.mycom.word;
 
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class WordCRUD implements ICRUD{
@@ -30,8 +31,21 @@ public class WordCRUD implements ICRUD{
     }
 
     @Override
-    public int update(Object obj) {
-        return 0;
+    public int update(int id) {
+        System.out.print("수정할 단어를 입력하세요");
+        String fixWord = s.next();
+        System.out.println("\n------------------------");
+        for(int i=0; i<list.size(); i++){
+            if(Objects.equals(list.get(i).getWord(), fixWord)){
+                System.out.println(list.get(i).getId() + " " + list.get(i).toString());
+            }
+        }
+        System.out.print("수정할 단어의 번호를 입력하세요");
+        int fixNumberWord = s.nextInt();
+        System.out.print("수정할 뜻을 입력하세요");
+        String newMeaning = s.next ();
+        list.get(fixNumberWord-1).setMeaning(newMeaning);
+        return id;
     }
 
     @Override

@@ -37,6 +37,9 @@ public class WordManager {
                 wordCRUD.addWord(id);
                 id++;
             }
+            else if(menu==5){
+                int success = wordCRUD.update(id);
+            }
         }
         System.out.println("\n프로그램 종료! 다음에 만나요");
     }
