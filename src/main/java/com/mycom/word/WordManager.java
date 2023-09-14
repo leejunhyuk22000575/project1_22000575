@@ -11,7 +11,7 @@ public class WordManager {
     }
     public int selectMenu() {
 
-        System.out.print("**********************\n"
+        System.out.print("\n**********************\n"
                 + "1. 모든 단어 보기\n"
                 + "2. 수준별 단어 보기\n"
                 + "3. 단어 검색\n"
@@ -26,6 +26,9 @@ public class WordManager {
         return s.nextInt();
     }
     public void start(){
+
+        System.out.println("*** 영단어 마스터 ***");
+
         int id = 1;
         while(true) {
             int menu = selectMenu();
@@ -33,12 +36,26 @@ public class WordManager {
             if(menu ==1){
                 wordCRUD.listAll();
             }
+            else if(menu ==2){
+                wordCRUD.listLevel();
+            }
+            else if(menu ==3){
+                wordCRUD.search();
+            }
             else if(menu==4){
                 wordCRUD.addWord(id);
                 id++;
             }
             else if(menu==5){
                 int success = wordCRUD.update(id);
+            }
+            else if(menu==6){
+                int success2 = wordCRUD.delete(id);
+                id--;
+            }
+            else if(menu==7){
+                wordCRUD.saveFile();
+                System.out.println("모든 단어 파일 저장 완료!!!");
             }
         }
         System.out.println("\n프로그램 종료! 다음에 만나요");
