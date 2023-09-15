@@ -55,7 +55,6 @@ public class WordCRUD implements ICRUD{
                 }
             }
         } catch (IOException e) {
-            // 파일이 없거나 오류 발생 시 새로운 ArrayList를 생성합니다.
             list = new ArrayList<>();
         }
         System.out.println(numWord + "개의 단어 로드 완료!");
