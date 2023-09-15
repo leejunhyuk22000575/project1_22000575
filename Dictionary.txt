@@ -3,7 +3,7 @@
 3|2|equipment|장비, 용품
 4|1|pole|기둥, 장대
 5|1|formerly|이전에, 예전에
-6|1|transfer|옮기다, 이동하다, 이동, 전송
+6|1|transfer|옮기다, 이동하다
 7|2|executive|경영 간부, 임원
 8|1|assure|안심시키다, 확신시키다
 9|2|embarrassment|당황, 난처함
@@ -28,4 +28,3 @@
 28|1|trim|다듬다
 29|3|crouch|쪼그리고 앉다
 30|2|proclaim|공언하다, 선포하다
-31|1|scatter|흩뿌리다, 살포하다

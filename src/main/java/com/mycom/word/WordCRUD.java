@@ -38,7 +38,6 @@ public class WordCRUD implements ICRUD{
         }
     }
 
-    // 파일에서 단어 목록을 불러오는 함수
     public void loadFile() {
         list.clear();
         int numWord = 0;
